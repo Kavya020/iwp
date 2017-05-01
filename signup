@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+ 
+ <head>
+   
+ <title>Sign Up</title>
+  
+  </head>
+ 
+ <body>
+ 
+ <form action="14BCE0547.php" method="post">	 
+	
+<table>
+
+<tr><td>First Name</td><td><input type="text" name=" fname" placeholder="First Name" required pattern="^[a-zA-z]+$"></td></tr><br> 
+
+<tr><td>Last Name</td><td><input type="text" name=" lname" placeholder="Last Name" required pattern="^[a-zA-z]+$"></td></tr><br> 
+
+<tr><td>E-mail</td><td>	<input type="email" name="email" placeholder="E - Mail" required pattern="^[a-z0-9._-]+@[a-z]+.[a-z.]{2,5}$"></td></tr><br> 
+	
+<tr><td> Set Password</td><td><input type="password" name="pwd" Placeholder=" Set Password" required pattern="^[a-zA-Z0-9@#$%&*]{6,}$"></td></tr>
+
+
+<br> 
+	 
+	
+</table>
+
+<input type="submit" value="Login" style="margin-top:10px;width:90%;background-color:#57B362;border-style:none;border-radius:7px;padding:15px;color:#FFFFFF;font-
+
+size:18px;"> 
+
+    
+
+ </form>
+  
+</body>
+
+</html>
